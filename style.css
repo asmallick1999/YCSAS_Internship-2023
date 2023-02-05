@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    background-color: rgb(62, 128, 220);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    height: 40vh;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.nav-menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* sponsor-section */
+.sponsor-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+.sponsor-section img{
+    width: 10%;   
+}
+
+.services-section{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7%;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+}
